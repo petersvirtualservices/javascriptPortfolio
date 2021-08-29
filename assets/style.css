@@ -39,3 +39,15 @@ div {
 .portfolioImage {
     height: 200px;
 }
+
+#Upwork {
+    height: 26px;
+}
+
+.contact {
+    font-size: 30px;
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    top: 45%;
+}
