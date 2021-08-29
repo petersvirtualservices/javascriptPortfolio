@@ -17,8 +17,9 @@ div {
     color:black;
     width: 40%;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 20px;
+    padding: 5px;
 }
 
 .footer {
