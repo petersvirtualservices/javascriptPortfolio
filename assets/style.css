@@ -63,3 +63,12 @@ label {
     margin: 5px auto;
     resize: vertical;
 }
+
+button {
+    height: 50px;
+    width: 100px;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
