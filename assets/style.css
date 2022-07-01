@@ -72,3 +72,8 @@ button {
     color: white;
     font-family: 'Cinzel', serif;
 }
+
+img {
+    height:500px;
+    width: auto;
+}
