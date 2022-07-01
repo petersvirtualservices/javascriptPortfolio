@@ -13,9 +13,6 @@ Click on desired links.
 ## Test Environment Instruction
 N/A
 
-## A File Manifest 
-undefined
-
 ## Copyright and Licensing Information
 MIT
 
