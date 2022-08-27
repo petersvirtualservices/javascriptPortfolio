@@ -15,7 +15,7 @@ h1 {
     text-align: center;
 }
 
-div {
+div{
     background-color: white;
     color:black;
     width: 40%;
@@ -26,10 +26,11 @@ div {
 }
 
 .footer {
-    bottom: 10px;
-    left: 30%;
-    font-size: 12px;
+    font-size: 10px;
     padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    width: 200px;
 }
 
 #mainPhoto {
@@ -77,3 +78,4 @@ img {
     height:500px;
     width: auto;
 }
+
