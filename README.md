@@ -1,5 +1,5 @@
 
-# Javascript Portfolio
+# HTML Portfolio
 
 ## Description
 This site is a compiliation of my work.
