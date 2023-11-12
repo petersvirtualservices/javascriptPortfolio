@@ -18,32 +18,32 @@ h1 {
 div{
     background-color: white;
     color:black;
-    width: 40%;
+    width: 50%;
     display: block;
     margin: 10px auto;
     border-radius: 20px;
     padding: 5px;
 }
 
-.footer {
-    font-size: 10px;
-    padding: 5px;
-    position: fixed;
-    bottom: 10px;
-    width: 200px;
-}
-
 #mainPhoto {
     top: 100px;
-    position: relative;
+    position: relative;    
+}
+
+a {
+    margin: 5px auto;
+
 }
 
 .portfolioImage {
-    height: 200px;
+    height: 100%;
+    margin: 3px auto;
+
 }
 
 #Upwork {
     height: 26px;
+    width: auto;
 }
 
 .contact {
@@ -52,6 +52,15 @@ div{
     right: 10px;
     width: 50px;
     top: 45%;
+}
+
+.contactPage {
+    font-size: 30px;
+    display:flex;
+}
+
+#charlene {
+    border-radius: 50%;
 }
 
 label {
@@ -75,7 +84,66 @@ button {
 }
 
 img {
-    height:500px;
-    width: auto;
+    height:auto;
+    width: 100%;
 }
 
+input {
+    height: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+textarea {
+    margin: 5px;
+    border-radius: 5px;
+width: 80%;
+height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+        img {
+            height:auto;
+            width: 100%;
+        }
+        
+        .contact {
+            display:none;
+        }
+
+        .contactPage {
+            font-size: 30px;
+            width: 90%;
+            display:flex;
+        }
+
+        div{
+            background-color: white;
+            color:black;
+            width: 90%;
+            display: block;
+            margin: 5px auto;
+            border-radius: 20px;
+            padding: 5px;
+        }
+
+        .footer {
+            font-size: 10px;
+            padding: 5px;
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+        }
+
+        label {
+            width: 97%;
+            height: 10%;
+            font-size: 30px;
+            border-radius: 10px;
+            display: block;
+            margin: 0px auto;
+            resize: vertical;
+        }
+
+    }
+  
