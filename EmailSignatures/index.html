@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="../assets/style.css" rel="stylesheet">
+    <title>Charlene Peters Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="This is the portfolio site for Charlene Peters, including HTML, CSS, Javascript, Node, and React examples.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+
+    <style>
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            background-color: black;
+            width: 50%;
+            margin: 0 auto;
+            border-radius:20px;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            width: 20%;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            margin: 0 auto;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="easierReading">
+        <h1>Charlene Peters Portfolio</h1>
+        <a href="../about.html">About</a> |
+        <a href="../portfolio.html">Portfolio</a> |
+        <a
+            href="https://github.com/petersvirtualservices/javascriptPortfolio/blob/main/assets/Portfolio_Resume_Charlene_Peters.docx">Resume</a>
+        |
+        <a href="../contact.html">Contact</a>
+    </div>
+
+    <div class="easierReading">
+        <h1>Email Signature Examples</h1>
+        <p>Some things to notate:</p>
+        <ul>
+            <li>With each submission, you will get an HTML/JQuery file that allows you to create a unique signature for
+                an
+                unlimited amount of individuals, plus the code to enter if you don't want to copy and paste.</li>
+            <li>You will need to submit all images, links, font names, and other necessary files to me. Note: For best
+                results, all files must have a public URL source. </li>
+        </ul>
+    </div>
+
+
+    <div class="contact ">
+        <a href="mailto:charlene@peters-services.com"><i class="fas fa-envelope-square"></i> </a><br />
+        <a href="https://www.linkedin.com/in/charlenepeters1/"><i class="fab fa-linkedin"></i></a><br />
+        <a href="https://github.com/petersvirtualservices"><i class="fab fa-github-square"></i></a><br />
+        <a href="https://www.upwork.com/freelancers/petersvirtualservices"><img id="Upwork"
+                src="../assets/images/640px-Upwork.png" alt="Upwork"></a>
+    </div>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openSignature(event, 'Example1')">Example 1</button>
+        <button class="tablinks" onclick="openSignature(event, 'Example2')">Example 2</button>
+        <button class="tablinks" onclick="openSignature(event, 'Example3')">Example 3</button>
+        <button class="tablinks" onclick="openSignature(event, 'Example4')">Example 4</button>
+        <button class="tablinks" onclick="openSignature(event, 'Example5')">Example 5</button>
+    </div>
+
+
+    <!--Example 1-->
+
+    <div id="Example1" class="tabcontent emailSigBackground">
+        <h2>Client Request:</h2>
+        <img src="./assets/branded-email-signature-design-wisestampcom.png" class="emailSigImage" />
+        <br>
+        <h2>Final Result:</h2>
+        <br>
+        <table>
+            <tr>
+                <td style="width: 115px; border-right-width:none">
+                    <img style="height:100px; width:auto" src="./assets/MaryCarlton.png" />
+                </td>
+                <td style="width: 500px; border-bottom-style:solid; border-bottom-color: #4201B6;">
+                    <div style="float:left">
+                        <span style="font-family: Arial; font-weight: 750; color:#4201B6; font-size:28px;">Mary
+                            Carlton</span>
+                        <br>
+                        <span
+                            style="font-family:Calibri Light, 'Trebuchet MS', sans-serif; color:gray; font-size:17px; margin-top:9px; display:block"><span
+                                style="color:black; font-size:16px; font-weight:bold; letter-spacing: 1px;">CTO</span>,
+                            Vortex Media</span>
+                    </div>
+                    <img style="height:60px; width: auto; float:right" src="./assets/VortexLogo.png" />
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">
+                    <p><span
+                            style="color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">P
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; color:gray; font-weight:lighter; font-size:16px">646-769-2047</span>
+
+
+                        <span
+                            style="padding-left: 15px; color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">F
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; color:gray; font-weight:lighter; font-size:16px">646-769-2227</span>
+
+                        <span
+                            style="padding-left: 15px; color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">M
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; color:gray; font-weight:lighter; font-size:16px">044-819-7813</span>
+                        <br>
+                        <span
+                            style="color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">E
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; font-weight:lighter; font-size:16px"><a
+                                style="text-decoration: none; color:gray; "
+                                href="mailto:mary@vortexdesign.com">mary@vortexdesign.com</a></span>
+
+                        <span
+                            style="padding-left: 15px; color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">W
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; font-weight:lighter; font-size:16px"><a
+                                style="text-decoration: none; color:gray;"
+                                href="www.vortexdesign.com">www.vortexdesign.com</a></span>
+                        <br>
+                        <span
+                            style="color:#4201B6; font-size:small; font-weight:bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">A
+                        </span><span
+                            style="font-family:Calibri, 'Trebuchet MS', sans-serif; color:gray; font-weight:lighter; font-size:16px">874
+                            Forest Avenue, New York, NY 10007</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Example 2-->
+    <div id="Example2" class="tabcontent emailSigBackground">
+        <h2>Client Request:</h2>
+        <img src="./assets/cool-way-to-encourage-a-meeting-directly-from-your-email-signature-wisestampecom.jpg"
+            class="emailSigImage" />
+        <br><br><br><br>
+
+
+
+
+        <h2>Final Result:</h2>
+
+
+        <table>
+            <tr>
+                <td>
+                    <p><span
+                            style="letter-spacing: 0px; color:#03959e; font-size: 30px; font-weight:600; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Chris
+                            Gardner</span>
+                        <br />
+                        <span
+                            style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bold;">
+                            Realtor, Manhattan Realtors</span>
+                        <br>
+                        <a href="www.manhattanrealtors.com"><img src="./assets/LocationGreenIcons.png"
+                                style="height:35px; float:right; width:auto; " /></a>
+                        <a href="https://facebook.com"><img src="./assets/FacebookGreenIcons.png"
+                                style="height:35px; float:right; width:auto; " /></a>
+                        <a href="https://linkedin.com"><img src="./assets/LinkedInGreenIcons.png"
+                                style="height:35px; float:right; width:auto; " /></a>
+                        <a href="https://instagram.com"><img src="./assets/InstagramGreenIcons.png"
+                                style="height:35px; float:right; width:auto; " /></a>
+                </td>
+                <td>
+                    <img style="height: 125px; width: auto;" src="./assets/ChrisGardner.png" />
+                </td>
+                <td>
+                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><span
+                            style="color:#03959e;">t</span> 1-800-470-7000<br>
+                        <span><span style="color:#03959e;">m</span> 202.320.6602</span><br>
+                        <span><span style="color:#03959e;">e</span> <a style="text-decoration: none; color:black"
+                                href="mailto:chris@manhattanrealtors.com">chris@manhattanrealtors.com</a></span><br>
+                        <span><span style="color:#03959e;">w</span> <a style="text-decoration: none; color:black"
+                                href="www.manhattanrealtors.com">www.manhattanrealtors.com</a></span><br>
+                        <span><span style="color:#03959e;">a</span> 2 E 91st, New York, NY 10128</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="https://zoom.us"><img style="height: 60px; width: auto;" src="./assets/Zoom.png" /></a>
+                    <br>
+                    <a href="https://calendly.com"><img style="height: 38px; width:auto; "
+                            src="./assets/MeetingIcon.png" /></a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <!--Example 3-->
+    <div id="Example3" class="tabcontent emailSigBackground">
+        <h2>Client Request:</h2>
+        <img src="./assets/email-signature-design-with-enticing-sales-offer-in-the-signature-block-wisestampcom.jpg"
+            class="emailSigImage" />
+        <br><br><br><br>
+
+
+
+
+        <h2>Final Result:</h2>
+        <table>
+            <tr style="font-family: 'Times New Roman', Times, serif;">
+                <td width="70px">
+                    <img src="./assets/EmilyScott.png" style="height: 115px; width: auto;" />
+                </td>
+                <td style="color:grey; font-size:14px">
+                    <div style="padding-left:10px">
+                        <p><span style="font-weight:bold; font-size:18px; color:black">Emily Scott</span>
+                            <br />
+                            <span style="font-size:16px; ">Realtor at <span style="color:#ee976b">Your Place
+                                    Realtors</span></span>
+                            <br><br>
+                            3627 Hoffman Avenue New York, NY 10007
+                            <br />
+                            917-891-2768 <span style="color:#ee976b">|</span> <a
+                                style="text-decoration:none; color:grey"
+                                href="mailto:emily@yourplacerealtors.com">emily@yourplacerealtors.com</a>
+                            <br>
+                            <a style="color:#ee976b; text-decoration:none"
+                                href="https://www.yourplacerealtors.com">https://www.yourplacerealtors.com</a>
+                        </p>
+                    </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="https://www.zillow.com"><img src="./assets/ESSMLogoZillow.png"
+                            style="height:35px; width:auto; " /></a>
+                    <a href="https://www.facebook.com"><img src="./assets/ESSMLogoFacebook.png"
+                            style="height:35px; width:auto; " /></a>
+                    <a href="https://www.linkedin.com"><img src="./assets/ESSMLogoLinkedIN.png"
+                            style="height:35px; width:auto; " /></a>
+                </td>
+            </tr>
+        </table>
+
+
+
+        <table style="font-family: 'Times New Roman', Times, serif;"">
+                <tr>
+                    <td colspan=" 4">
+            <img style="height:30px; width:auto; " src="./assets/EMRecentListings.png" />
+            </td>
+            </tr>
+
+            <tr>
+                <td width="85px">
+                    <img style="height:80px; width:auto; " src="./assets/EM3335.png" />
+                </td>
+                <td>
+                    <div style="color:grey;">
+                        <span style="font-size:12px; color:#ee976b">3335 Taylor St.
+                            <br>
+                            New York, NY 10010</span>
+                        <p style="font-size:12px; ">For Sale: <b style="color:black">$1,829,000</b>
+                            <br>
+                            2.5bd / 1.5 ba / 1,442sqft
+                        </p>
+                    </div>
+                </td>
+                <td width="85px">
+                    <img style="height:80px;  width:auto; " src="./assets/EM1627.png" />
+                </td>
+                <td>
+                    <div style="color:grey">
+                        <span style="font-size:12px; color:#ee976b">1627 Webster St.
+                            <br>
+                            New Brunswick, NJ 08901</span>
+                        <p style="font-size:12px;">For Sale: <b style="color:black">$1,119,000</b>
+                            <br>
+                            1bd / 1.5 ba / 1,022sqft
+                        </p>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+
+
+    <!--Example 4-->
+    <div id="Example4" class="tabcontent emailSigBackground">
+        <h2>Client Request:</h2>
+        <img src="./assets/jeweller-artist-email-signature-with-YouTube-movie-wisestampecom.jpg"
+            class="emailSigImage" />
+        <br><br><br><br>
+
+
+
+
+
+        <h2>Final Result:</h2>
+        <table>
+            <tr>
+                <td rowspan="6">
+                    <img src="./assets/ErinStClair.png" style="height:150px; width:auto; " />
+                </td>
+            </tr>
+
+            <tr>
+                <td
+                    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14px;">
+                    <p style="font-size:22px;"><span style="color:#dd5458">Erin StClair</span> <span>Jeweller</span>
+                        <br />
+                        <b>Bracelets Kingdom</b>
+                    </p>
+                    <p>
+                        4182 My Drive Elmsford, NY 10523
+                    </p>
+                </td>
+            </tr>
+            <tr style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 16px;">
+                <td>
+                    <img src="./assets/ErinSIcons1Phone.png" style="height:13px; width:auto; " /> 204-248-777
+                    </span> <img src="./assets/ErinSIcons1Email.png"
+                        style="height:12px; margin-left:5px; width:auto; " /> orders@braceletskingdom.com
+                </td>
+            </tr>
+            <tr style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 14px;">
+                <td>
+
+                    <a href="https://www.braceletskingdom.com" style="text-decoration: none; color:black"><img
+                            src="./assets/ErinSIcons2.png" style="height:12px; width:auto; " /> <span
+                            style="font-size: 16px;">
+                            www.braceletskingdom.com</span></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com"><img src="./assets/ErinSSMLogoFacebook.png"
+                            style="height:35px; width:auto; " /></a>
+                    <a href="https://www.twitter.com"><img src="./assets/ErinSSMLogoTwitter.png"
+                            style="height:35px; width:auto; " /></a>
+                    <a href="https://www.linkedin.com"><img src="./assets/ErinSSMLogoLinkedIn.png"
+                            style="height:35px; width:auto; " /></a>
+
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <div style="float:inline-start; margin-right:10px;">
+                        <a href="www.youtube.com"><img src="./assets/ErinSYouTubeImage.png"
+                                style="height:100px; width:auto; margin-top:-5px;" /></a>
+                    </div>
+                    <div style="float:inline-start">
+                        <a href="www.youtube.com"><img src="./assets/ErinSYouTubeTitle.png"
+                                style="height:28px; width:auto;" /></a>
+                        <br>
+                        <div style="font-size:12px; font-family: Arial, Helvetica, sans-serif; color:gray">
+                            The new Desert Storm Collection is now out in shops. <br>Check out this lovely promo!
+                            You
+                            can order online at...
+                            <br><br>
+                            <a href="www.braceletskingdom.com" style="text-decoration: none; color:#537ebb">Bracelets
+                                Kingdom</a> &#x2022; 12k views &#x2022; 3 months ago
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--Example 5-->
+    <div id="Example5" class="tabcontent emailSigBackground">
+        <h2>Client Request:</h2>
+        <img src="./assets/Modern-email-signature-for-research-assistant-with-social-media-buttons-wisestampcom.jpg"
+            class="emailSigImage" />
+        <br><br><br>
+        <h2>Final Result:</h2>
+
+        <table cellspacing="0" cellpadding="0" style="text-align: left;">
+            <tr>
+                <td>
+                    <img src="./assets/EuniceManley.png" style="height: 90px; margin-bottom:-5px; width:auto; " />
+
+                </td>
+                <td
+                    style="background-color: #ea5757; color:white; font-family:'Space Grotesk', sans-serif; height: 70px; width:auto; ">
+                    <span style="font-size: 18px; margin-left: 15px">RESEARCH ASSISTANT, M&A CONSULTANCY</span>
+                    <br>
+                    <span
+                        style="margin-left: 15px; font-size: 26px; font-weight:bold; font-family:'Lucida Sans Regular, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">EUNICE
+                        MANLEY</span>
+
+                </td>
+            </tr>
+            <tr height="15px">
+                <td></td>
+            </tr>
+            <tr>
+                <td width="75px">
+
+                </td>
+                <td
+                    style="border-left-color:#D3D3D3; border-left-width: 1px; border-left-style:solid; font-size:14px; font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding:15px">
+                    <span>
+                        <span style="color: #ea5757; font-weight: bold;">A</span> 2312 Laurel Lee Saint Paul, MN
+                        55114
+                        <br>
+                        <span style="color: #ea5757; font-weight: bold;">M</span> 706.380.5102 &nbsp;&nbsp; <span
+                            style="color: #ea5757; font-weight: bold;">T</span> 214.718.416 &nbsp;&nbsp; <span
+                            style="color: #ea5757; font-weight: bold;">E</span> eunice@maconsultancy.com
+                        <br>
+                        <a href="www.maconsultancy.com"
+                            style="color: #ea5757; font-weight: bold; text-decoration: none;">www.maconsultancy.com</a>
+                    </span>
+                    <br>
+                    <a href="https://www.youtube.com"><img src="./assets/EMSMIconsYoutube.png"
+                            style="height: 40px; width:auto; " /></a>
+                    <a href="https://www.instagram.com"><img src="./assets/EMSMIconsInstagram.png"
+                            style="height: 40px; width:auto; " /></a>
+                    <a href="https://www.linkedin.com"><img src="./assets/EMSMIconsLinkedIn.png"
+                            style="height: 40px; width:auto; " /></a>
+                </td>
+            </tr>
+            <tr height="15px">
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <a href="https://www.facebook.com"><img src="./assets/EMSMBottomFB.png"
+                            style="height: 65px; width:auto; " /></a>
+                    <a href="https://www.twitter.com"><img src="./assets/EMSMBottomTR.png"
+                            style="height: 65px; width:auto; " /></a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+
+
+    <!--  //////////  Credit  //////////-->
+
+    <div class="easierReading">
+        <p>These examples were taken from <a
+                href="https://www.wisestamp.com/signature-examples/cool-email-signatures/">WiseStamp</a>.</p>
+
+
+
+        <span> © Charlene Peters Portfolio 2024</span> |
+        <a href="privacy.html">Privacy Policy</a> |<br />
+        <a href="toc.html">Terms and Conditions</a>
+    </div>
+
+
+
+
+    <!--Tab Script-->
+    <script>
+        function openSignature(evt, example) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(example).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+
+</html>
