@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     text-align: center;
-    color:black;
+    color: black;
     background-image: url('../assets/images/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -15,9 +15,9 @@ h1 {
     text-align: center;
 }
 
-div{
+.easierReading {
     background-color: white;
-    color:black;
+    color: black;
     width: 50%;
     display: block;
     margin: 10px auto;
@@ -25,9 +25,21 @@ div{
     padding: 5px;
 }
 
+.emailSigBackground {
+    background-color: white;
+    color: black;
+    display: block;
+    text-align:left;
+    width:50%;
+    border-radius: 20px;
+    padding:5px;
+}
+
 #mainPhoto {
     top: 100px;
-    position: relative;    
+    position: relative;
+    height: 500px;
+    width: auto;
 }
 
 a {
@@ -41,6 +53,13 @@ a {
 
 }
 
+.emailSigImage {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display:block;
+}
+
 #Upwork {
     height: 26px;
     width: auto;
@@ -52,15 +71,20 @@ a {
     right: 10px;
     width: 50px;
     top: 45%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }
 
 .contactPage {
     font-size: 30px;
-    display:flex;
+    display: flex;
 }
 
 #charlene {
     border-radius: 50%;
+    height: 400px;
+    width: auto;
 }
 
 label {
@@ -83,8 +107,8 @@ button {
     font-family: 'Cinzel', serif;
 }
 
-img {
-    height:auto;
+.portfolioImage{
+    height: auto;
     width: 100%;
 }
 
@@ -97,53 +121,58 @@ input {
 textarea {
     margin: 5px;
     border-radius: 5px;
-width: 80%;
-height: 40px;
+    width: 80%;
+    height: 40px;
+}
+
+table {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
 }
 
 @media only screen and (max-width: 600px) {
-        img {
-            height:auto;
-            width: 100%;
-        }
-        
-        .contact {
-            display:none;
-        }
-
-        .contactPage {
-            font-size: 30px;
-            width: 90%;
-            display:flex;
-        }
-
-        div{
-            background-color: white;
-            color:black;
-            width: 90%;
-            display: block;
-            margin: 5px auto;
-            border-radius: 20px;
-            padding: 5px;
-        }
-
-        .footer {
-            font-size: 10px;
-            padding: 5px;
-            position: fixed;
-            bottom: 10px;
-            width: 100%;
-        }
-
-        label {
-            width: 97%;
-            height: 10%;
-            font-size: 30px;
-            border-radius: 10px;
-            display: block;
-            margin: 0px auto;
-            resize: vertical;
-        }
-
+    img {
+        height: auto;
+        width: 100%;
     }
-  
+
+    .contact {
+        display: none;
+    }
+
+    .contactPage {
+        font-size: 30px;
+        width: 90%;
+        display: flex;
+    }
+
+    .easierReading {
+        background-color: white;
+        color: black;
+        width: 90%;
+        display: block;
+        margin: 5px auto;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    .footer {
+        font-size: 10px;
+        padding: 5px;
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+    }
+
+    label {
+        width: 97%;
+        height: 10%;
+        font-size: 30px;
+        border-radius: 10px;
+        display: block;
+        margin: 0px auto;
+        resize: vertical;
+    }
+
+}
